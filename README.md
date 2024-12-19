@@ -126,11 +126,14 @@ python offline/bet_maniskill2.py --env-id PushChair-v2 --demo-path data/PushChai
 If you find our work useful, please consider citing our paper as follows:
 
 ```
-@article{pi_dec,
+@misc{pi_dec,
   title={Policy Decorator: Model-Agnostic Online Refinement for Large Policy Model},
   author={Yuan, Xiu and Mu, Tongzhou and Tao, Stone and Fang, Yunhao and Zhang, Mengke and Su, Hao},
-  journal={arXiv preprint arXiv:abcd.efghi},
-  year={2024}
+  year={2024},
+  eprint={2412.13630},
+  archivePrefix={arXiv},
+  primaryClass={cs.RO},
+  url={https://arxiv.org/abs/2412.13630}, 
 }
 ```
 
