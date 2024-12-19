@@ -11,7 +11,7 @@ Xiu Yuan*, [Tongzhou Mu](https://cseweb.ucsd.edu/~t3mu/)*, [Stone Tao](https://w
 
 <img src="assets/offline_vs_online.gif" width="40%"></br>
  
-[[Webpage]](TBD) [[Paper]](TBD) [[Video]](TBD) [[Slides]](https://drive.google.com/file/d/1Jjffmbh4yqUMQH4fdBxm9-bZuBbiwVid/view?usp=sharing)
+[[Webpage]](https://policydecorator.github.io/) [[Paper]](https://arxiv.org/abs/2412.13630) [[Video]](https://drive.google.com/file/d/1PwWwFhFTJSUFmEFcrzEEcy5IYHYJ4KLd/preview) [[Slides]](https://drive.google.com/file/d/1Jjffmbh4yqUMQH4fdBxm9-bZuBbiwVid/view?usp=sharing)
 
 ----
 
