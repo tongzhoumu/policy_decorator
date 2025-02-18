@@ -9,6 +9,8 @@ Xiu Yuan*, [Tongzhou Mu](https://cseweb.ucsd.edu/~t3mu/)*, [Stone Tao](https://w
 
 *Equal Contribution</br>
 
+ICLR 2025
+
 <img src="assets/offline_vs_online.gif" width="40%"></br>
  
 [[Webpage]](https://policydecorator.github.io/) [[Paper]](https://arxiv.org/abs/2412.13630) [[Video]](https://drive.google.com/file/d/1PwWwFhFTJSUFmEFcrzEEcy5IYHYJ4KLd/preview) [[Slides]](https://drive.google.com/file/d/1Jjffmbh4yqUMQH4fdBxm9-bZuBbiwVid/view?usp=sharing)
@@ -126,14 +128,11 @@ python offline/bet_maniskill2.py --env-id PushChair-v2 --demo-path data/PushChai
 If you find our work useful, please consider citing our paper as follows:
 
 ```
-@misc{pi_dec,
+@inproceedings{pi_dec,
   title={Policy Decorator: Model-Agnostic Online Refinement for Large Policy Model},
   author={Yuan, Xiu and Mu, Tongzhou and Tao, Stone and Fang, Yunhao and Zhang, Mengke and Su, Hao},
-  year={2024},
-  eprint={2412.13630},
-  archivePrefix={arXiv},
-  primaryClass={cs.RO},
-  url={https://arxiv.org/abs/2412.13630}, 
+  booktitle={The Thirteenth International Conference on Learning Representations},
+  year={2025}
 }
 ```
 
