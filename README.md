@@ -72,11 +72,20 @@ The following commands should be run under the repo root dir.
 
 Use *Diffusion Policy* as the base policy:
 ```bash
+# State observation
+
 python online/pi_dec_diffusion_maniskill2.py --env-id PegInsertionSide-v2 --base-policy-ckpt checkpoints/diffusion_PegInsertionSide/checkpoints/best.pt --res-scale 0.1 --prog-explore 30_000
 
 python online/pi_dec_diffusion_maniskill2.py --env-id TurnFaucet-v2 --base-policy-ckpt checkpoints/diffusion_TurnFaucet/checkpoints/best.pt --res-scale 0.1 --prog-explore 100_000 --total-timesteps 2_000_000
 
 python online/pi_dec_diffusion_maniskill2.py --env-id PushChair-v2 --base-policy-ckpt checkpoints/diffusion_PushChair/checkpoints/best.pt --res-scale 0.2 --prog-explore 300_000 --gamma 0.9 --total-timesteps 2_000_000 
+
+# Visual observation
+
+python online/pi_dec_diffusion_maniskill2_rgbd.py --env-id TurnFaucet-v2 --base-policy-ckpt checkpoints/diffusion_rgbd_TurnFaucet/checkpoints/best.pt --res-scale 0.05 --prog-explore 30_000
+
+python online/pi_dec_diffusion_maniskill2_rgbd.py --env-id PushChair-v2 --base-policy-ckpt checkpoints/diffusion_rgbd_PushChair/checkpoints/best.pt --res-scale 0.2 --prog-explore 100_000 --total-timesteps 5_000_000
+
 ```
 
 Use *Behavior Transformer* as the base policy:
@@ -103,11 +112,19 @@ The following commands should be run under the repo root dir.
 
 Train *Diffusion Policy*:
 ```bash
+# State observation
+
 python offline/diffusion_policy_unet_maniskill2.py --env-id PegInsertionSide-v2 --demo-path data/PegInsertionSide/trajectory.h5
 
 python offline/diffusion_policy_unet_maniskill2.py --env-id TurnFaucet-v2 --demo-path data/TurnFaucet/trajectory.h5
 
 python offline/diffusion_policy_unet_maniskill2.py --env-id PushChair-v2 --demo-path data/PushChair/trajectory.h5 --control-mode base_pd_joint_vel_arm_pd_joint_vel --total-iters 300_000
+
+# Visual observation
+
+python offline/diffusion_policy_unet_maniskill2_rgbd.py --env-id TurnFaucet-v2 --demo-path data/TurnFaucet/trajectory_rgbd_64x64.h5 --random-shift 2
+
+python offline/diffusion_policy_unet_maniskill2_rgbd.py --env-id PushChair-v2 --demo-path data/PushChair/trajectory_rgbd_125x50.h5 --control-mode base_pd_joint_vel_arm_pd_joint_vel
 ```
 
 Train *Behavior Transformer*:
