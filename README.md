@@ -5,7 +5,7 @@ Official implementation of
 
 [Policy Decorator: Model-Agnostic Online Refinement for Large Policy Model](https://arxiv.org/abs/2412.13630) by
 
-Xiu Yuan*, [Tongzhou Mu](https://cseweb.ucsd.edu/~t3mu/)*, [Stone Tao](https://www.stoneztao.com/), [Yunhao Fang](https://seerkfang.github.io/), Mengke Zhang, [Hao Su](https://cseweb.ucsd.edu/~haosu) (UC San Diego)</br>
+[Xiu Yuan](https://xiuyuan0216.github.io/)*, [Tongzhou Mu](https://cseweb.ucsd.edu/~t3mu/)*, [Stone Tao](https://www.stoneztao.com/), [Yunhao Fang](https://seerkfang.github.io/), Mengke Zhang, [Hao Su](https://cseweb.ucsd.edu/~haosu) (UC San Diego)</br>
 
 *Equal Contribution</br>
 
